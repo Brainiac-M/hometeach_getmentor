@@ -14,6 +14,9 @@ body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -21,10 +24,8 @@ main {
     position: absolute;
     width: 65em;
     height: 31em;
-    left: 10em;
-    top: 7em;
     padding: 0.3em 7em 0.1em;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,11 +65,11 @@ h1 {
 }
 
 #hometeachlogo {
-    z-index: 100;
+    z-index: 10;
     height: 300px;
     width: 200px;
-    position: fixed;
-    top: 27%;
+    position: absolute;
+    top: 17%;
     left: 43%;
 }
 
@@ -115,7 +116,7 @@ input {
     font-size: 1.3em;
     padding: 1.1em;
     font-weight: 700;
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgba(255, 255, 255, 1);
     border: 0;
     background-color: #4CA772;
@@ -124,4 +125,85 @@ input {
 input:hover {
     background-color: #4CA772;
     color: #FFB425;
+}
+
+
+/*Responsive mode*/
+
+
+/*Responsive mode*/
+
+
+/*Responsive mode*/
+
+
+/*Mobile Screen*/
+
+@media only screen and (max-width: 600px) {
+    /*Tablets  [426px -> 600px]*/
+}
+
+@media only screen and (max-width: 400px) {
+    /*Small smartphones [325px -> 425px]*/
+    main {
+        position: absolute;
+        width: 18em;
+        height: 90vh;
+        padding: 0.5em 1em 0.2em;
+        border-radius: 7px;
+        margin-top: 50px;
+    }
+    h1 {
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.01em;
+        margin-top: 0.1em;
+        color: rgba(76, 167, 114, 1);
+        font-size: 1.3em;
+        line-height: 25px;
+    }
+    .yellow_line {
+        width: 7em;
+        height: 0.2em;
+        margin: 10px 0 5px;
+    }
+    .green_line {
+        width: 7em;
+        height: 0.2em;
+        margin: 10px 0 20px;
+    }
+    .main_p {
+        margin-bottom: 0.5em;
+    }
+    #hometeachlogo {
+        height: 200px;
+        width: 150px;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .steps {
+        flex-direction: column;
+    }
+    .step {
+        margin: 15px 20px;
+    }
+    .step p {
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+    input {
+        width: 70%;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 1em;
+        padding: 0.7em;
+        font-weight: 700;
+        border-radius: 5px;
+    }
 }
