@@ -21,7 +21,6 @@ body {
 
 main {
     background: rgba(246, 248, 245, 0.94);
-    position: absolute;
     width: 65em;
     height: 31em;
     padding: 0.3em 7em 0.1em;
@@ -139,14 +138,164 @@ input:hover {
 
 /*Mobile Screen*/
 
-@media only screen and (max-width: 600px) {
+
+/*Max width 700px*/
+
+
+/*Max width 700px*/
+
+
+/*Max width 700px*/
+
+@media only screen and (max-width: 700px) {
     /*Tablets  [426px -> 600px]*/
+    main {
+        width: 85vw;
+        height: 80vh;
+        padding: 0.7em 7em 0.5em;
+        border-radius: 7px;
+        margin-top: 5em;
+    }
+    h1 {
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        margin-top: 0.5em;
+        font-size: 1.5em;
+        line-height: 27px;
+    }
+    .yellow_line {
+        background: #FFB425;
+        width: 10em;
+        height: 0.3em;
+        margin: 15px 0 15px;
+        border: 0;
+    }
+    .green_line {
+        background: rgba(76, 167, 114, 1);
+        width: 10em;
+        height: 0.3em;
+        margin: 15px 0 5px;
+        border: 0;
+    }
+    #hometeachlogo {
+        height: 250px;
+        width: 170px;
+        position: absolute;
+        top: 31%;
+        left: 37%;
+    }
+    p {
+        font-size: 15px;
+    }
+    .step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 30px;
+        width: 7rem;
+    }
+    .step p {
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+    .stepnumber {
+        padding: 0.2em 0.7em;
+        border-radius: 48%;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    input {
+        width: 60%;
+        border-radius: 7px;
+    }
 }
+
+
+/*Max width 550px*/
+
+
+/*Max width 550px*/
+
+
+/*Max width 550px*/
+
+@media only screen and (max-width: 550px) {
+    main {
+        width: 90vw;
+        height: 80vh;
+        padding: 0.3em 2em 0.3em;
+        border-radius: 7px;
+    }
+    h1 {
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        font-size: 1.3em;
+        line-height: 20px;
+    }
+    .yellow_line {
+        background: #FFB425;
+        width: 10em;
+        height: 0.3em;
+        margin: 50px 0 15px;
+    }
+    .green_line {
+        width: 10em;
+        height: 0.3em;
+        margin: 25px 0 5px;
+    }
+    .main_p {
+        margin-bottom: 1em;
+    }
+    #hometeachlogo {
+        position: absolute;
+        top: 37%;
+        left: 35%;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .steps {
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .step {
+        margin: 50px 20px;
+    }
+    .step p {
+        font-size: 0.68em;
+        font-weight: 700;
+    }
+    .stepnumber {
+        padding: 0.2em 0.7em;
+        border-radius: 47%;
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    input {
+        width: 50%;
+        margin-left: 32.5%;
+        margin-right: 32.5%;
+        font-size: 1.3em;
+        padding: 1.1em;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+}
+
+
+/*Max width 400px*/
+
+
+/*Max width 400px*/
+
+
+/*Max width 400px*/
 
 @media only screen and (max-width: 400px) {
     /*Small smartphones [325px -> 425px]*/
     main {
-        position: absolute;
         width: 18em;
         height: 90vh;
         padding: 0.5em 1em 0.2em;
@@ -158,7 +307,6 @@ input:hover {
         text-align: center;
         letter-spacing: 0.01em;
         margin-top: 0.1em;
-        color: rgba(76, 167, 114, 1);
         font-size: 1.3em;
         line-height: 25px;
     }
