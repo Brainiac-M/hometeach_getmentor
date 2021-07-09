@@ -151,47 +151,47 @@ input:hover {
     /*Tablets  [426px -> 600px]*/
     main {
         width: 85vw;
-        height: 87vh;
-        padding: 0.3em 7em 0.3em;
+        height: 85vh;
+        padding: 0.2em 3em 0.1em;
         border-radius: 7px;
         margin-top: 3em;
     }
     h1 {
         font-weight: 600;
         letter-spacing: 0.01em;
-        margin-top: 0.5em;
-        font-size: 1.5em;
-        line-height: 27px;
+        margin-top: 0.3em;
+        font-size: 1.3em;
+        line-height: 25px;
     }
     .yellow_line {
         background: #FFB425;
         width: 10em;
         height: 0.3em;
-        margin: 15px 0 15px;
+        margin: 20px 0 5px;
         border: 0;
     }
     .green_line {
         background: rgba(76, 167, 114, 1);
         width: 10em;
         height: 0.3em;
-        margin: 15px 0 5px;
+        margin: 20px 0 5px;
         border: 0;
     }
     #hometeachlogo {
         height: 250px;
         width: 170px;
         position: absolute;
-        top: 35%;
+        top: 32%;
         left: 37%;
     }
     p {
-        font-size: 15px;
+        font-size: 13px;
     }
     .step {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px 30px;
+        margin: 30px 35px;
         width: 7rem;
     }
     .step p {
@@ -232,25 +232,25 @@ input:hover {
         font-weight: 600;
         letter-spacing: 0.01em;
         font-size: 1.3em;
-        line-height: 20px;
+        line-height: 25px;
     }
     .yellow_line {
         background: #FFB425;
         width: 10em;
         height: 0.3em;
-        margin: 50px 0 15px;
+        margin: 30px 0 10px;
     }
     .green_line {
         width: 10em;
         height: 0.3em;
-        margin: 25px 0 10px;
+        margin: 15px 0 10px;
     }
     .main_p {
         margin-bottom: 1em;
     }
     #hometeachlogo {
         position: absolute;
-        top: 35%;
+        top: 31%;
         left: 35%;
     }
     p {
@@ -299,17 +299,17 @@ input:hover {
     main {
         width: 87vw;
         height: 90vh;
-        padding: 0.5em 1.5em 0.2em;
+        padding: 0.3em 1.5em 0.2em;
         border-radius: 7px;
         margin-top: 2em;
     }
     h1 {
-        font-weight: 400;
+        font-weight: 600;
         text-align: center;
         letter-spacing: 0.01em;
         margin-top: 0.1em;
-        font-size: 1.5em;
-        line-height: 20=5px;
+        font-size: 1em;
+        line-height: 23px;
     }
     .yellow_line {
         width: 7em;
@@ -319,7 +319,7 @@ input:hover {
     .green_line {
         width: 7em;
         height: 0.2em;
-        margin: 10px 0 20px;
+        margin: 7px 0 20px;
     }
     .main_p {
         margin-bottom: 0.5em;
@@ -328,7 +328,7 @@ input:hover {
         height: 200px;
         width: 150px;
         position: absolute;
-        top: 27%;
+        top: 25%;
         left: 30%;
     }
     p {
@@ -340,10 +340,10 @@ input:hover {
         flex-direction: column;
     }
     .step {
-        margin: 10px 20px;
+        margin: 5px 20px;
     }
     .step p {
-        font-size: 0.8em;
+        font-size: 0.7em;
         font-weight: 500;
     }
     input {
