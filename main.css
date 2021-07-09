@@ -151,10 +151,10 @@ input:hover {
     /*Tablets  [426px -> 600px]*/
     main {
         width: 85vw;
-        height: 80vh;
-        padding: 0.7em 7em 0.5em;
+        height: 87vh;
+        padding: 0.3em 7em 0.3em;
         border-radius: 7px;
-        margin-top: 5em;
+        margin-top: 3em;
     }
     h1 {
         font-weight: 600;
@@ -181,7 +181,7 @@ input:hover {
         height: 250px;
         width: 170px;
         position: absolute;
-        top: 31%;
+        top: 35%;
         left: 37%;
     }
     p {
@@ -222,10 +222,11 @@ input:hover {
 
 @media only screen and (max-width: 550px) {
     main {
-        width: 90vw;
-        height: 80vh;
-        padding: 0.3em 2em 0.3em;
+        width: 87vw;
+        height: 87vh;
+        padding: 0.1em 3em 0.1em;
         border-radius: 7px;
+        margin-top: 2em;
     }
     h1 {
         font-weight: 600;
@@ -242,14 +243,14 @@ input:hover {
     .green_line {
         width: 10em;
         height: 0.3em;
-        margin: 25px 0 5px;
+        margin: 25px 0 10px;
     }
     .main_p {
         margin-bottom: 1em;
     }
     #hometeachlogo {
         position: absolute;
-        top: 37%;
+        top: 35%;
         left: 35%;
     }
     p {
@@ -257,14 +258,14 @@ input:hover {
         font-weight: 400;
     }
     .steps {
-        margin: 10px 0px;
+        margin: 5px 0px;
         width: 100%;
     }
     .step {
-        margin: 50px 20px;
+        margin: 30px 10px;
     }
     .step p {
-        font-size: 0.68em;
+        font-size: 0.7em;
         font-weight: 700;
     }
     .stepnumber {
@@ -274,7 +275,7 @@ input:hover {
         font-weight: 400;
     }
     input {
-        width: 50%;
+        width: 60%;
         margin-left: 32.5%;
         margin-right: 32.5%;
         font-size: 1.3em;
@@ -296,19 +297,19 @@ input:hover {
 @media only screen and (max-width: 400px) {
     /*Small smartphones [325px -> 425px]*/
     main {
-        width: 18em;
+        width: 87vw;
         height: 90vh;
-        padding: 0.5em 1em 0.2em;
+        padding: 0.5em 1.5em 0.2em;
         border-radius: 7px;
-        margin-top: 50px;
+        margin-top: 2em;
     }
     h1 {
         font-weight: 400;
         text-align: center;
         letter-spacing: 0.01em;
         margin-top: 0.1em;
-        font-size: 1.3em;
-        line-height: 25px;
+        font-size: 1.5em;
+        line-height: 20=5px;
     }
     .yellow_line {
         width: 7em;
@@ -327,7 +328,7 @@ input:hover {
         height: 200px;
         width: 150px;
         position: absolute;
-        top: 30%;
+        top: 27%;
         left: 30%;
     }
     p {
@@ -339,10 +340,10 @@ input:hover {
         flex-direction: column;
     }
     .step {
-        margin: 15px 20px;
+        margin: 10px 20px;
     }
     .step p {
-        font-size: 0.9em;
+        font-size: 0.8em;
         font-weight: 500;
     }
     input {
